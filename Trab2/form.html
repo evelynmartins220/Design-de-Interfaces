@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>Formulário</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="img/smartphone.png" alt="Logo"></a>
+                <p>Tech Mobile</p>
+            </div>
+
+            <div class="pesquisar">
+                <input type="text" class="inputPesquisar" placeholder="O que você procura?">
+                <button class="botaoPesquisar"><img class="imgPesquisar" src="img/lupa.png" alt="lupa"></button>
+            </div>
+            
+            <div class="login">
+                <a href="form.html">Entre ou Cadastre-se<img src="img/login.png" alt="Imagem login"> </a>
+            </div>
+
+        </header>
+        <nav>
+            <ul>
+                <li><a class="lista" href="produtos.html">Produtos</a></li>
+                <li><a class="lista" href="#">Mais vendidos</a></li>
+                <li><a class="lista" href="#">Contato</a></li>
+                <li><a class="lista" href="#">Sobre nós</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="cadastro"><h1>Cadastro</h1></div>
+            <div class="mensagem">
+                <p>Se você já possui uma conta em nossa loja, acesse sua conta <a href="#">clicando aqui</a>.</p>
+            </div>
+            <form>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    Nome:<input class="input" type="text" name="nome" size="15" maxlength="100" required>
+                    Sobrenome:<input class="input" type="text" name="nome" size="15" maxlength="100" required>
+                    Data de nascimento:<input class="input" type="date" name="dnasc" required>
+                    Feminino<input class="radio" type="radio" name="genero" value="Fem" required>
+                    Masculino<input class="radio" type="radio" name="genero" value="Masc" required>
+                    Email:<input class="input" type="email" name="email" size="100" required>
+                    Senha: <input class="input" type="password" name="senha" size="15" maxlength="8" required>
+                    <input class="botaoEnviar" type="submit" name="enviar" value="Enviar">
+                </fieldset>
+            </form>
+        </main>
+
+        <footer>
+            <div>
+                <h1>Contato:</h1>
+                <p>(53)99167-3822 | techmobile@gmail.com</p>
+            </div>
+
+            <div>
+                <h1>Horário de Funcionamento:</h1>
+                <p>Segunda-feira à sexta-feira das 8h às 18h</p>
+            </div>
+
+            <div>
+                <h1>Endereço:</h1>
+                <p>Rua General Neto, 504 - Centro</p>
+            </div>
+
+            <div class="redes">
+                <h1>Redes Sociais:</h1>
+                <a href="#"><img src="img/facebook.png" alt="Logo Facebook"></a>
+                <a href="#"><img src="img/instagram.png" alt="Logo Instagram"></a>
+                <a href="#"><img src="img/twitter.png" alt="Logo Twitter"></a>
+                <a href="#"><img src="img/tiktok.png" alt="Logo TikTok"></a>
+            </div>
+        </footer>
+    </body>
+</html>
