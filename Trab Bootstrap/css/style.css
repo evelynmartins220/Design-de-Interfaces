@@ -392,14 +392,3 @@
     background: var(--bs-dark);
 }
 /*** copyright end ***/
-
-
-.celulares {
-    width: 416px;
-    height: 472px;
-}
-
-.celularModal {
-    width: 466px;
-    height: 530px;
-}
